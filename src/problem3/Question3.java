@@ -7,7 +7,6 @@ public class Question3 {
         boolean booleanvar = true;
         System.out.println("longvar = " + longvar);
         System.out.println("booleanvar = " + booleanvar);
-
     }
 }
 
