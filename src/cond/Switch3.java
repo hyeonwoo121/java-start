@@ -3,13 +3,14 @@ package cond;
 public class Switch3 {
 
     public static void main(String[] args) {
-        int grade = 1;
+        int grade = 2;
 
         int coupon;
         switch (2) {
             case 1:
                 coupon = 1000;
                 break;
+            //2와 3은 같은조건 2까지내려가서 break가 없네하고 3을 출력
             case 2:
             case 3:
                 coupon = 3000;

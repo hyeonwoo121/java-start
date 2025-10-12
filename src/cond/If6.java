@@ -10,6 +10,7 @@ public class If6 {
         if (price >= 10000) {
             discount = discount + 1000;
             System.out.println("10000원 이상 구매, 1000원 할인");
+            //앞서 if문에 조건을 만족했기때문에 바로 Print out로 간다.
         } else if (age <= 10) {
             discount = discount + 1000;
             System.out.println("어린이 1000원 할인");

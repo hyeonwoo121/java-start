@@ -7,6 +7,7 @@ public class Switch2 {
 
         int coupon;
         switch (grade) {
+            //case부터 쭉 수행하다가 break에서 빠져나옴
             case 1:
                 coupon = 1000;
                 break;
