@@ -1,6 +1,6 @@
 package loop;
 
-public class Break3 {
+public class    Break3 {
     public static void main(String[] args) {
         int sum = 0;
 
@@ -13,3 +13,4 @@ public class Break3 {
         }
     }
 }
+

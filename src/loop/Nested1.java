@@ -10,6 +10,8 @@ public class Nested1 {
             }
             System.out.println("외부 for 종료 i:" + i);
             System.out.println();
+            //이중포문의 경우 괄호안에 실행횟수가 곱으로 연결됨
+            //지금과 같은 경우 첫2번 곱하기 밑에 3번 = 6회
         }
     }
 }
