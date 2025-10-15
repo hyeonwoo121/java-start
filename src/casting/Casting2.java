@@ -7,7 +7,7 @@ public class Casting2 {
         int intValue = 0;
 
         //intValue = doubleValue; //컴파일 오류 발생
-        intValue = (int) doubleValue; ///형변환
+        intValue = (int) doubleValue; ///명시적형변환
         System.out.println(intValue);
     }
 }
