@@ -6,6 +6,8 @@ public class Array1Ref2 {
         int[] students; //배열 변수 선언
         students = new int[5]; //배열 생성
 
+        System.out.println(students.length); //배열의 길이
+
         //변수 값 대입
         students[0] = 90;
         students[1] = 80;
