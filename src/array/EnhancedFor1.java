@@ -21,5 +21,6 @@ public class EnhancedFor1 {
             System.out.println("number" + i + "번의 결과는: " + numbers[i]);
         }
 
+
     }
 }
