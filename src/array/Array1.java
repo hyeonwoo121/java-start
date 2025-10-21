@@ -1,7 +1,7 @@
 package array;
 
 public class Array1 {
-
+    //원본
     public static void main(String[] args) {
         int student1 = 90;
         int student2 = 80;
