@@ -25,6 +25,5 @@ public class ArrayEx7 {
             double average = total / 3.0;
             System.out.println((i+1) + "번 학생의 총점: " + total + ", 평균: " + average);
         }
-
     }
 }
