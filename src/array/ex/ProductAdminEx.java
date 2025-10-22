@@ -8,7 +8,7 @@ public class ProductAdminEx {
         int maxProducts = 10;
         String[] productNames = new String[maxProducts];
         int[] productPrices = new int[maxProducts];
-        int productCount = 0;
+        int productCount = 0; //상품이 저장될때마다 카운트, 아직 등록된 상품 없음
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -20,14 +20,14 @@ public class ProductAdminEx {
 
                 if (productCount >= maxProducts) {
                     System.out.println("더 이상 상품을 등록할 수 없습니다.");
-                    continue;
+                    continue; // 상품을 더 이상 등록을 못할경우 다시 while문으로 돌아가야 한다.
                 }
 
                 System.out.print("상품 이름을 입력하세요:");
-                productNames[productCount] = scanner.nextLine();
+                productNames[productCount] = scanner.nextLine(); //첫 번째부터  칸(0번)에 입력된문자 저장
 
                 System.out.print("상품 가격을 입력하세요:");
-                productPrices[productCount] = scanner.nextInt();
+                productPrices[productCount] = scanner.nextInt(); //첫 번째부터  칸(0번)에 입력된숫자 저장
 
                 productCount++;
             } else if (menu == 2) {
